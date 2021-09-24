@@ -12,7 +12,7 @@
     'use strict';
 
     setTimeout(() => {
-        Array.from(document.getElementsByClassName('timeCardTruncate')).forEach((el) => {
+        Array.from(document.getElementsByClassName('timeCardTruncate tooltipstered')).forEach((el) => {
         const t = el.getAttribute('png-tooltip');
 
 
